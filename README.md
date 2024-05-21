@@ -12,7 +12,7 @@ Playbook-ean idatzi beharreko pausoak:
 
 - nginx instalatu (apt modulua erabiliz)
 - 'files' karpetaren barruan dagoen 'nginx.conf' fitxategia karpeta egokira kopiatu (/etc/nginx/sites-available/default)
-- 'files' karpetaren barruan dagoen 'index.html' fitxategia karpeta egokira kopiatu (/etc/nginx/sites-available/default)
+- 'files' karpetaren barruan dagoen 'index.html' fitxategia karpeta egokira kopiatu (/usr/share/nginx/html/index.html)
 - nginx-eko 'sites-available' fitxategia 'aktibatu' ('sites-enabled'-en link bat sortu)
 - nginx berrabiarazi
 
